@@ -1,5 +1,5 @@
 # RF-PCA combined with ELM are used for classification
-•	Matlab code of RF, PCA, and ELM
+•	Matlab code of Random Forest (RF), Principal Component Analysis (PCA), and Extreme Learning Machine (ELM)
 # Requirements
 •	Matlab
 # Usage
