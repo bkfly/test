@@ -46,16 +46,35 @@
  Principal Component and Variance Explained (%)
  
  # Step 3: Establish ELM classification model
- %% input data
  
- % Training data
+ %%Input
  
- %P_train - Input Matrix of Training Set  
+ % P   - Input Matrix of Training Set  (R*Q)
  
- %T_train - Output labels of Training Set 
+ % T   - Output Matrix of Training Set (S*Q)
+
+ % N   - Number of Hidden Neurons (default = Q)
  
- % Test data
+ % TF  - Transfer Function:
  
- %P_test - Input Matrix of Test Set  
+ %  'sig' for Sigmoidal function (default)
  
- %T_test - Output labels of Test Set  
+ %  'sin' for Sine function
+
+ %  'hardlim' for Hardlim function
+
+ % TYPE - Regression (0,default) or Classification (1)
+
+ %% Output
+ 
+ % IW - Input Weight Matrix (N*R)
+
+ % B - Bias Matrix  (N*1)
+
+ % LW - Layer Weight Matrix (N*S)
+ 
+%% Output description
+
+accuracy of the training set and test set
+
+training time
