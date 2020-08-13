@@ -9,12 +9,16 @@
 •ELM.zip includes main.m, elmtrain.m and elmpredict.m files. main.m is a program of the extreme learning machine algorithm. 
 
 •elmtrain.m is a subprogram for classification problem，which can be used for data classification quickly.
+
 •elmpredict.m is a subprogram for regression problem，which can be used for data regressionn quickly.
 
 # Step 1
 % %Load a dataset
+  
   load data; 
+  
   In = Inputs'; % input data
+  
   Out = Targets'; % input labels
  
 %% Parameters
