@@ -12,7 +12,7 @@
   load data; 
   In = Inputs'; % input data
   Out = Targets'; % input labels
-
+ 
 %% Parameters
   leaf=1; % the number of leaf node samples
   ntrees=200;  % the number of trees
