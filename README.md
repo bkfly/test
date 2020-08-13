@@ -50,29 +50,29 @@
  
  %%Input
  
- % P   - Input Matrix of Training Set  (R*Q)
+ P   - Input Matrix of Training Set  (R*Q)
  
- % T   - Output Matrix of Training Set (S*Q)
+ T   - Output Matrix of Training Set (S*Q)
 
- % N   - Number of Hidden Neurons (default = Q)
+ N   - Number of Hidden Neurons (default = Q)
  
- % TF  - Transfer Function:
+ TF  - Transfer Function:
  
- %  'sig' for Sigmoidal function (default)
+ 'sig' for Sigmoidal function (default)
  
- %  'sin' for Sine function
+ 'sin' for Sine function
 
- %  'hardlim' for Hardlim function
+ 'hardlim' for Hardlim function
 
- % TYPE - Regression (0,default) or Classification (1)
+ TYPE - Regression (0,default) or Classification (1)
 
  %% Output
  
- % IW - Input Weight Matrix (N*R)
+ IW - Input Weight Matrix (N*R)
 
- % B - Bias Matrix  (N*1)
+ B - Bias Matrix  (N*1)
 
- % LW - Layer Weight Matrix (N*S)
+ LW - Layer Weight Matrix (N*S)
  
 %% Output description
 
